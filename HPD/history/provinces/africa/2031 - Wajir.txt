@@ -1,0 +1,6 @@
+add_core = HBY
+add_core = GEL
+add_core = MAJ
+trade_goods = cattle
+terrain = savanna
+life_rating = 10

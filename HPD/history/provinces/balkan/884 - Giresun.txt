@@ -1,0 +1,7 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = PNT
+add_core = RME
+trade_goods = fruit
+life_rating = 35

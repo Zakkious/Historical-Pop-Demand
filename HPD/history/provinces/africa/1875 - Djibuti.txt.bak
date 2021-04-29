@@ -1,0 +1,7 @@
+add_core = AWS
+add_core = WRL
+add_core = GEL
+trade_goods = cattle
+terrain = semidesert
+life_rating = 10
+colonial = 1

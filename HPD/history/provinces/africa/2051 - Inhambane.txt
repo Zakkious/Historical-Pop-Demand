@@ -1,0 +1,6 @@
+owner = POR
+controller = POR
+add_core = MAT
+trade_goods = fruit
+terrain = savanna
+life_rating = 35

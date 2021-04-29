@@ -1,0 +1,27 @@
+owner = ARC
+controller = ARC
+add_core = URU
+add_core = ARG
+trade_goods = grain
+life_rating = 35
+party_loyalty = {
+    ideology = conservative
+    loyalty_value = 25
+}
+1822.1.1 = {
+	controller = PBR
+	owner = PBR
+	add_core = BRZ
+}
+1825.1.1 = {
+	controller = BRZ
+	owner = BRZ
+	add_core = BRZ
+}
+1836.1.1 = {
+	controller = URU
+	owner = URU
+	add_core = URU
+        remove_core = BRZ
+        remove_core = ARG
+}

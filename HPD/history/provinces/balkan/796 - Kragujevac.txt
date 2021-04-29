@@ -1,0 +1,6 @@
+owner = SER
+controller = SER
+add_core = SER
+add_core = RME
+trade_goods = coal
+life_rating = 35

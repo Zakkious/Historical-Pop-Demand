@@ -1,0 +1,9 @@
+army = {
+    name = "Acre's Army"
+    location = 2549
+    regiment = {
+        name= "1. Amazonian Infantry"
+        type = infantry
+        home = 2549
+    }
+}

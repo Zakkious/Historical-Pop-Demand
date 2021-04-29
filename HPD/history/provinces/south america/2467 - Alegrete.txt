@@ -1,0 +1,26 @@
+owner = ARC
+controller = ARC
+add_core = BRZ
+add_core = RGS
+add_core = BRS
+trade_goods = cattle
+life_rating = 35
+1822.1.1 = {
+	controller = PBR
+	owner = PBR
+	add_core = BRZ
+}
+1825.1.1 = {
+	controller = BRZ
+	owner = BRZ
+	add_core = BRZ
+}
+1836.1.1 = {
+	controller = RGS
+	owner = RGS
+	add_core = RGS
+}
+1860.1.1 = {
+    owner = BRZ
+    controller = BRZ
+}

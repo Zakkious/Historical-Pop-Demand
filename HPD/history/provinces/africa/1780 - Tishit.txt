@@ -1,0 +1,11 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = TRZ
+add_core = BUL
+add_core = SER
+add_core = MCD
+add_core = ALB
+add_core = RME
+trade_goods = fruit
+life_rating = 35

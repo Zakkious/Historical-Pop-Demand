@@ -1,0 +1,6 @@
+add_core = ZBW
+add_core = SHO
+trade_goods = fruit
+terrain = savanna
+life_rating = 10
+colonial = 1
