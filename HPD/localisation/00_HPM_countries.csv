@@ -3522,10 +3522,10 @@ MRU_hms_government;Maritime Union;;;;;;;;;;;;;
 MRU_hms_government;Maritime Union;;;;;;;;;;;;x
 MRU_prussian_constitutionalism;Maritime Union;;;;;;;;;;;;;
 MRU_prussian_constitutionalism;Maritime Union;;;;;;;;;;;;x
-MSS;Mato Grosso do Sul;;;;;;;;;;;;;x
+MTS;Mato Grosso do Sul;;;;;;;;;;;;;x
 MSS;Samos;;;;;;;;;;;;;
 MSS_ADJ;Greek;;;;;;;;;;;;;
-MSS_ADJ;Sul-Matogrossense;;;;;;;;;;;;;x
+MTS_ADJ;Sul-Matogrossense;;;;;;;;;;;;;x
 MTG;Mato Grosso;;;;;;;;;;;;;x
 MTG_ADJ;Matogrossense;;;;;;;;;;;;;x
 MUG_absolute_monarchy;The Mughal Empire;;;;;;;;;;;;;
