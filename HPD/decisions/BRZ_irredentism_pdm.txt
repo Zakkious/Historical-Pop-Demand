@@ -1877,12 +1877,16 @@ political_decisions = {
 			war = no
                         exists = SAO
                         exists = MTG
+						exists = MSS
                         exists = GRP
                         exists = BRS
                         exists = CEQ
                         exists = MAR
-                        exists = BAH
+                        exists = BHI
                         exists = MGS
+						exists = ESO
+						exists = AMP
+						exists = TOC
 	        }
 
 		effect = {

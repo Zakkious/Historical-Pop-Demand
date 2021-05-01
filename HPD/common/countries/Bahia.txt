@@ -2,7 +2,7 @@ color = { 130 90 220 }
 graphical_culture = SouthAmericanGC
 
 party = {
-    name = "BAH_liberal"
+    name = "BHI_liberal"
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-    name = "BAH_conservative"
+    name = "BHI_conservative"
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-    name = "BAH_reactionary"
+    name = "BHI_reactionary"
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-    name = "BAH_conservative_2"
+    name = "BHI_conservative_2"
     start_date = 1873.1.1
     end_date = 2000.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-    name = "BAH_liberal_2"
+    name = "BHI_liberal_2"
     start_date = 1870.1.1
     end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-    name = "BAH_anarcho_liberal"
+    name = "BHI_anarcho_liberal"
     start_date = 1830.1.1
     end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-    name = "BAH_socialist"
+    name = "BHI_socialist"
     start_date = 1848.1.1
     end_date = 2000.1.1
 
@@ -107,7 +107,7 @@ party = {
 }
 
 party = {
-    name = "BAH_communist"
+    name = "BHI_communist"
     start_date = 1848.1.1
     end_date = 2000.1.1
 
@@ -122,7 +122,7 @@ party = {
 }
 
 party = {
-    name = "BAH_fascist"
+    name = "BHI_fascist"
     start_date = 1900.1.1
     end_date = 2000.1.1
 
