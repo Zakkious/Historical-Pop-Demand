@@ -1216,15 +1216,17 @@ political_decisions = {
 		}
 		
 		allow = {
+		    prestige = 150
 			owns = 2447
 			owns = 2448
 			owns = 2449
+			nationalism_n_imperialism = 1
 		}
 		
 		effect = {
 			prestige = 20
 			badboy = -5
-			BAH = {
+			BHI = {
 				all_core = { add_core = SAO }
 			}
 			CEQ = {
@@ -1260,18 +1262,20 @@ political_decisions = {
 	brazilian_unification2 = {
 		picture = form_brazilpic
 		potential = {
-		        tag = RIO
+                               tag = RIO
 			NOT = { has_country_flag = brazilian_unification }
 		}
 		
 		allow = {
 			all_core = { owned_by = THIS }
-		}
+			prestige = 150 
+			nationalism_n_imperialism = 1			
+			}
 		
 		effect = {
 			prestige = 20
 			badboy = -5
-			BAH = {
+			BHI = {
 				all_core = { add_core = RIO }
 			}
 			CEQ = {
@@ -1305,7 +1309,648 @@ political_decisions = {
 			set_country_flag = brazilian_unification
 		}
 	}
+brazilian_unification3 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = BHI
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			CEQ = {
+				all_core = { add_core = BHI }
+			}
+                        BRS = {
+				all_core = { add_core = BHI }
+                        }
+                        MGS = {
+				all_core = { add_core = BHI }
+                        }
+                        MAR = {
+				all_core = { add_core = BHI }
+                        }
+                        GRP = {
+				all_core = { add_core = BHI }
+                        }
+                        MTG = {
+				all_core = { add_core = BHI }
+                        }
+						MTS = {
+				all_core = { add_core = BHI }
+                        }
+						ESO = {
+				all_core = { add_core = BHI }
+                        }
+                        AMA = {
+				all_core = { add_core = BHI }
+                        }
+                        GOY = {
+				all_core = { add_core = BHI }
+                        }
+						SAO = {
+				all_core = { add_core = BHI }
+				}
+						RIO = { 
+				all_core = { add_core = BHI }		
+           }
+			set_country_flag = brazilian_unification
+		 }
+		}
+		
+	brazilian_unification4 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = CEQ
+                        has_global_flag = the_empire_has_fallen
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = CEQ }
+			}
+                        BRS = {
+				all_core = { add_core = CEQ }
+                        }
+                        MGS = {
+				all_core = { add_core = CEQ }
+                        }
+                        MAR = {
+				all_core = { add_core = CEQ }
+                        }
+                        GRP = {
+				all_core = { add_core = CEQ }
+                        }
+                        MTG = {
+				all_core = { add_core = CEQ }
+                        }
+						MTS = {
+				all_core = { add_core = CEQ }
+                        }
+						ESO = {
+				all_core = { add_core = CEQ }
+                        }
+                        AMA = {
+				all_core = { add_core = CEQ }
+                        }
+                        GOY = {
+				all_core = { add_core = CEQ }
+                        }
+						SAO = {
+				all_core = { add_core = CEQ } 
+				}
+						RIO = { 
+				all_core = { add_core = CEQ }	
+				}
+			set_country_flag = brazilian_unification
+		 
+			}
+		}
+	brazilian_unification5 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = BRS
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = BRS }
+			}
+			CEQ = {
+				all_core = { add_core = BRS }
+			}
+                        MGS = {
+				all_core = { add_core = BRS }
+                        }
+                        MAR = {
+				all_core = { add_core = BRS }
+                        }
+                        GRP = {
+				all_core = { add_core = BRS }
+                        }
+                        MTG = {
+				all_core = { add_core = BRS }
+                        }
+						MTS = {
+				all_core = { add_core = BRS }
+                        }
+						ESO = {
+				all_core = { add_core = BRS }
+                        }
+                        AMA = {
+				all_core = { add_core = BRS }
+                        }
+                        GOY = {
+				all_core = { add_core = BRS }
+                        }
+						SAO = {
+				all_core = { add_core = BRS } 
+						}
+						RIO = { 
+				all_core = { add_core = BRS }		
+						}	
+			set_country_flag = brazilian_unification
+		}
+	}
+	brazilian_unification6 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = MGS
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = MGS }
+			}
+			CEQ = {
+				all_core = { add_core = MGS }
+			}
+                        BRS = {
+				all_core = { add_core = MGS }
+                        }
+                        MAR = {
+				all_core = { add_core = MGS }
+                        }
+                        GRP = {
+				all_core = { add_core = MGS }
+                        }
+                        MTG = {
+				all_core = { add_core = MGS }
+                        }
+						MTS = {
+				all_core = { add_core = MGS }
+                        }
+						ESO = {
+				all_core = { add_core = MGS }
+                        }
+                        AMA = {
+				all_core = { add_core = MGS }
+                        }
+                        GOY = {
+				all_core = { add_core = MGS }
+                        }
+						SAO = {
+				all_core = { add_core = MGS }
+						}
+						RIO = { 
+				all_core = { add_core = MGS }
+						}
+				}
+}
+			set_country_flag = brazilian_unification
+		
+	brazilian_unification7 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = MAR
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = MAR }
+			}
+			CEQ = {
+				all_core = { add_core = MAR }
+			}
+                        BRS = {
+				all_core = { add_core = MAR }
+                        }
+                        MGS = {
+				all_core = { add_core = MAR }
+                        }
+                        GRP = {
+				all_core = { add_core = MAR }
+                        }
+                        MTG = {
+				all_core = { add_core = MAR }
+                        }
+						MTS = {
+				all_core = { add_core = MAR }
+                        }
+						ESO = {
+				all_core = { add_core = MAR }
+                        }
+                        AMA = {
+				all_core = { add_core = MAR }
+                        }
+                        GOY = {
+				all_core = { add_core = MAR }
+                        }
+						SAO = {
+				all_core = { add_core = MAR }
+							}
+						RIO = { 
+				all_core = { add_core = MAR }		
+							}
 
+			set_country_flag = brazilian_unification
+			}
+		}
+	brazilian_unification8 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = GRP
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = GRP }
+			}
+			CEQ = {
+			    all_core = { add_core = GRP }
+			}
+                        BRS = {
+				all_core = { add_core = GRP }
+                        }
+                        MGS = {
+				all_core = { add_core = GRP }
+                        }
+                        MAR = {
+				all_core = { add_core = GRP }
+                        }
+                        MTG = {
+				all_core = { add_core = GRP }
+                        }
+						MTS = {
+				all_core = { add_core = GRP }
+                        }
+						ESO = {
+				all_core = { add_core = GRP }
+                        }
+                        AMA = {
+				all_core = { add_core = GRP }
+                        }
+                        GOY = {
+				all_core = { add_core = GRP }
+                        }
+						SAO = {
+				all_core = { add_core = GRP }
+				}
+						RIO = { 
+				all_core = { add_core = GRP } 		
+				}
+			set_country_flag = brazilian_unification
+		}
+	}	
+	brazilian_unification9 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = MTG
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = SAO }
+			}
+			CEQ = {
+				all_core = { add_core = MTG }
+			}
+                        BRS = {
+				all_core = { add_core = MTG }
+			}
+                        MGS = {
+				all_core = { add_core = MTG }
+			}
+                        MAR = {
+				all_core = { add_core = MTG }
+			}
+                        GRP = {
+				all_core = { add_core = MTG }
+			}
+                       
+						MTS = {
+				all_core = { add_core = MTG }
+			}
+						ESO = {
+				all_core = { add_core = MTG }
+			}
+                        AMA = {
+				all_core = { add_core = MTG }
+			}
+                        GOY = {
+				all_core = { add_core = MTG }
+			}
+						SAO = {
+				all_core = { add_core = MTG }
+			}
+						RIO = {
+				all_core = { add_core = MTG }
+			}	
+
+
+			set_country_flag = brazilian_unification
+		}
+	}
+	brazilian_unification10 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = MTS
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = MTS }
+			}
+			CEQ = {
+				all_core = { add_core = MTS }
+			}
+                        BRS = {
+				all_core = { add_core = MTS }
+			}
+                        MGS = {
+				all_core = { add_core = MTS }
+			}
+                        MAR = {
+				all_core = { add_core = MTS }
+			}
+                        GRP = {
+				all_core = { add_core = MTS }
+			}
+                        MTG = {
+				all_core = { add_core = MTS }
+			}
+						ESO = {
+				all_core = { add_core = MTS }
+			}
+                        AMA = {
+				all_core = { add_core = MTS }
+			}
+                        GOY = {
+				all_core = { add_core = MTS }
+			}
+						SAO ={
+				all_core = { add_core = MTS }
+			}
+						RIO = {
+				all_core = { add_core = MTS }
+			}	
+
+
+			set_country_flag = brazilian_unification
+		}
+	}
+	brazilian_unification11 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = ESO
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = ESO }
+			}
+			CEQ = {
+				all_core = { add_core = ESO }
+			}
+                        BRS = {
+				all_core = { add_core = ESO }
+			}
+                        MGS = {
+				all_core = { add_core = ESO }
+			}
+                        MAR = {
+				all_core = { add_core = ESO }
+			}
+                        GRP = {
+				all_core = { add_core = ESO }
+			}
+                        MTG = {
+				all_core = { add_core = ESO }
+			}
+						MTS = {
+				all_core = { add_core = ESO }
+			}
+                        AMA = {
+				all_core = { add_core = ESO }
+			}
+                        GOY = {
+				all_core = { add_core = ESO }
+			}
+						SAO = {
+				all_core = { add_core = ESO }
+			}
+						RIO = {
+				all_core = { add_core = ESO }
+			}	
+
+
+			set_country_flag = brazilian_unification
+		}
+	}
+	brazilian_unification12 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = AMA
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = AMA }
+			}
+			CEQ = {
+				all_core = { add_core = AMA }
+			}
+                        BRS = {
+				all_core = { add_core = AMA }
+			}
+                        MGS = {
+				all_core = { add_core = AMA }
+			}
+                        MAR = {
+				all_core = { add_core = AMA }
+			}
+                        GRP = {
+				all_core = { add_core = AMA }
+			}
+                        MTG = {
+				all_core = { add_core = AMA }
+			}
+						MTS = {
+				all_core = { add_core = AMA }
+			}
+						ESO = {
+				all_core = { add_core = AMA }
+			}
+                        GOY = {
+				all_core = { add_core = AMA }
+			}
+						SAO = {
+				all_core = { add_core = AMA }
+			}
+						RIO = {
+				all_core = { add_core = AMA }
+			}
+
+
+			set_country_flag = brazilian_unification
+		}
+	}
+	brazilian_unification13 = {
+		picture = form_brazilpic
+		potential = {
+		        tag = GOY
+                        has_global_flag = the_empire_has_fallen
+                        government = democracy
+			NOT = { has_country_flag = brazilian_unification}
+                        NOT = { has_country_flag = the_empire_has_king }
+		}
+		
+		allow = {
+		    prestige = 150
+			nationalism_n_imperialism = 1 
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			BHI = {
+				all_core = { add_core = GOY }
+			}
+			CEQ = {
+				all_core = { add_core = GOY }
+			}
+                        BRS = {
+				all_core = { add_core = GOY }
+			}
+                        MGS = {
+				all_core = { add_core = GOY }
+			}
+                        MAR = {
+				all_core = { add_core = GOY }
+			}
+                        GRP = {
+				all_core = { add_core = GOY }
+			}
+                        MTG = {
+				all_core = { add_core = GOY }
+			}
+						MTS = {
+				all_core = { add_core = GOY }
+			}
+						ESO = {
+				all_core = { add_core = GOY }
+			}
+                        AMA = {
+				all_core = { add_core = GOY }
+			}
+						SAO = {
+				all_core = { add_core = GOY }
+			}
+						RIO = {
+				all_core = { add_core = GOY }
+			}
+
+
+			set_country_flag = brazilian_unification
+		}
+	}
+	
 	form_brazilian_empire = {
 		picture = form_brazilpic
 		potential = {
