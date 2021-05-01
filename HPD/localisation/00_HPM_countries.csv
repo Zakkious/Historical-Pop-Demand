@@ -451,29 +451,17 @@ AZA_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;
 AZA_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;
 AZA_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 baguirmi;Maban;;;;;;;;;;;;;
-BAH;Bahia;;;;;;;;;;;;;
-BAH;Bahia;;;;;;;;;;;;;x
-BAH_ADJ;Bahian
-BAH_ADJ;Bahian;;;;;;;;;;;;;
-BAH_ADJ;Bahian;;;;;;;;;;;;;x
-BAH_anarcho_liberal;Partido Radical;Partido Radical;Partido Radical;;;;;;;;;;;
-BAH_anarcho_liberal;Partido Radical;Partido Radical;Partido Radical;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAH_communist;Partido Communist;Partido communiste;Partido Communist;;;;;;;;;;;
-BAH_communist;Partido Communist;Partido communiste;Partido Communist;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAH_conservative;Partido Conservador;Partido Conservador;Partido Conservador;;;;;;;;;;;
-BAH_conservative;Partido Conservador;Partido Conservador;Partido Conservador;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAH_conservative_2;Partido Paulista;Partido Paulista;Partido Paulista;;;;;;;;;;;
-BAH_conservative_2;Partido Paulista;Partido Paulista;Partido Paulista;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAH_fascist;Partido Fascist;Partido fasciste;Partido Fascist;;;;;;;;;;;
-BAH_fascist;Partido Fascist;Partido fasciste;Partido Fascist;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAH_liberal;Partido Liberal;Partido Liberal;Partido Liberal;;;;;;;;;;;
-BAH_liberal;Partido Liberal;Partido Liberal;Partido Liberal;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAH_liberal_2;Partido Carioca;Partido Carioca;Partido Carioca;;;;;;;;;;;
-BAH_liberal_2;Partido Carioca;Partido Carioca;Partido Carioca;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAH_reactionary;Partido Caramuru;Partido Caramuru;Partido Caramuru;;;;;;;;;;;
-BAH_reactionary;Partido Caramuru;Partido Caramuru;Partido Caramuru;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAH_socialist;Partido Socialist;Partido socialiste;Partido Socialist;;;;;;;;;;;
-BAH_socialist;Partido Socialist;Partido socialiste;Partido Socialist;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI;Bahia;;;;;;;;;;;;;
+BHI_ADJ;Bahian;;;;;;;;;;;;;
+BHI_anarcho_liberal;Partido Radical;Partido Radical;Partido Radical;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI_communist;Partido Communist;Partido communiste;Partido Communist;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI_conservative;Partido Conservador;Partido Conservador;Partido Conservador;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI_conservative_2;Partido Paulista;Partido Paulista;Partido Paulista;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI_fascist;Partido Fascist;Partido fasciste;Partido Fascist;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI_liberal;Partido Liberal;Partido Liberal;Partido Liberal;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI_liberal_2;Partido Carioca;Partido Carioca;Partido Carioca;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI_reactionary;Partido Caramuru;Partido Caramuru;Partido Caramuru;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BHI_socialist;Partido Socialist;Partido socialiste;Partido Socialist;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BAN;Banat;;;;;;;;;;;;;
 BAN;Banat;;;;;;;;;;;;x
 BAN_ADJ;Banati;;;;;;;;;;;;;
